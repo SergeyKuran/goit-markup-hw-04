@@ -78,16 +78,22 @@ p {
   margin-left: auto;
   justify-content: center;
   align-items: center;
-}
-.nav-contact .nav-icon:hover,
-.nav-contact .nav-icon:focus {
-  border: 4px;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: var(--secondary-text-color);
 }
 
-.nav-icon a:hover {
+.nav-icon:hover, 
+.nav-icon:focus{
   color: var(--color-accent);
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.icon-envelope:hover,
+.icon-envelope:focus,
+.icon-smartphone:hover,
+.icon-smartphone:focus{
+fill: currentColor;
+
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
 
 /* відступ посилань хедер */
 .nav-contact li:not(:first-child) {
@@ -277,14 +283,7 @@ p {
   text-align: center;
   color: var(--primary-text-color);
 }
-.nav-icon {
-  display: flex;
-  align-items: center;
-}
-.nav-icon:hover,
-.nav-icon:focus {
-  color: #2196f3;
-}
+
 .box-one {
   padding-top: 0;
 }
@@ -307,6 +306,7 @@ p {
 
 .icon-envelope,
 .icon-smartphone {
+  fill: var(--secondary-text-color);
   margin-right: 10px;
 }
 
@@ -544,7 +544,7 @@ p {
 /* Footer */
 .div-adress {
   padding-right: 0;
-  width: 265px;
+  width: 290px;
 }
 
 .logo-footer {
