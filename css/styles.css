@@ -92,10 +92,12 @@ p {
 .icon-smartphone:hover,
 .icon-smartphone:focus {
   fill: currentColor;
-
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.email .icon-envelope:hover,
+.email .icon-envelope:focus{
+  fill: var(--color-accent);
+}
 /* відступ посилань хедер */
 .nav-contact li:not(:first-child) {
   margin-left: 50px;
