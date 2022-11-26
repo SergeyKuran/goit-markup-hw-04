@@ -95,7 +95,7 @@ p {
 }
 
 .email .icon-envelope:hover,
-.email .icon-envelope:focus{
+.email .icon-envelope:focus {
   fill: var(--color-accent);
 }
 /* відступ посилань хедер */
@@ -134,7 +134,6 @@ p {
 }
 
 .hero {
-  max-width: 1600px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -545,6 +544,10 @@ p {
   letter-spacing: 0.03em;
 }
 /* Footer */
+.footer {
+  background-color: var(--footer-bg-color);
+}
+
 .div-adress {
   padding-right: 0;
   width: 290px;
@@ -564,7 +567,6 @@ p {
   display: flex;
   align-items: baseline;
   padding-bottom: 60px;
-  background-color: var(--footer-bg-color);
 }
 
 .icon {
@@ -596,12 +598,11 @@ p {
 }
 /* Приєднатися */
 .div-social {
-  padding-left: 70px;
+  margin-left: 70px;
 }
 
 .social-footer {
   text-transform: uppercase;
-  font-weight: 400;
   font-size: 14px;
   color: var(--header-bg-color);
 }
@@ -609,7 +610,7 @@ p {
 .social-link-footer {
   background-color: var(--background-color-socials-footer);
 }
-
+/*  */
 .social-ul-footer {
   margin: 0;
   margin-top: 20px;
